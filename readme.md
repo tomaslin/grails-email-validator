@@ -51,7 +51,7 @@ These options are configurable via your application's Config.groovy file:
 
 + The validity of an email is checked by issuing a VRFY command to the server. In most cases, this would be turned off.
 
-+ For usage examples, please refer to the EmailValidatorServiceSpec integration test.
++ For usage examples, please refer to the EmailValidatorServiceSpec[1] integration test.
 
 ## Gotchas / Tips
 
@@ -60,3 +60,5 @@ These options are configurable via your application's Config.groovy file:
 + If you disable domain checking, the smtpServer property will be null.
 
 + Most mail servers will have the VRFY field disabled to prevent spam. This means that in most cases, you won't know if an email address is 100% valid unless you send an email to it. The verified field of the email status is going to most often be false. 
+
+[1]:http://github.com/tomaslin/grails-email-validator/blob/master/test/integration/grails/plugins/emailvalidator/EmailValidatorServiceSpec.groovy
