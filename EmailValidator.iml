@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="Grails" name="Grails" removed="false">
+          <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="grails-1.3.3" level="application" />
+    <orderEntry type="module-library">
+      <library name="Grails User Library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/dnsjava/dnsjava/jars/dnsjava-2.0.8.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/commons-net/commons-net/jars/commons-net-2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/xalan/xalan/jars/xalan-2.7.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/org.w3c.css/sac/jars/sac-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/net.sourceforge.cssparser/cssparser/jars/cssparser-0.9.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.14.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/jars/htmlunit-core-js-2.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/commons-codec/commons-codec/javadocs/commons-codec-1.4-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/commons-codec/commons-codec/sources/commons-codec-1.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/net.sourceforge.htmlunit/htmlunit/jars/htmlunit-2.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/org.codehaus.groovy/groovy-all/jars/groovy-all-1.7.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.ivy2/cache/org.spockframework/spock-core/jars/spock-core-0.4-groovy-1.7.jar!/" />
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="EmailValidator-grailsPlugins" />
+  </component>
+</module>
+
