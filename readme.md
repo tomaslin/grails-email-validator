@@ -2,6 +2,8 @@
 
 The Email Validator plugin provides extensive checking of email addresses.
 
+## What does it do?
+
 It helps answer the following questions:
 
 + Does this email have valid syntax?
@@ -9,7 +11,7 @@ It helps answer the following questions:
 + Can I send an email to this domain?
 + Does the user exist in this mail domain?
 
-## How to use
+## How do I use it?
 
 In your code, call:
 
